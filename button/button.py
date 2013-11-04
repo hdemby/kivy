@@ -37,6 +37,5 @@ class TestApp(App):
     def build(self):
          return RootWidget()
 
-
 if __name__ == '__main__':
      TestApp().run()
