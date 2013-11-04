@@ -32,11 +32,11 @@ class CustomBtn(Widget):
     def on_pressed(self, instance, pos):
         print ('pressed at {pos}'.format(pos=pos))
 
-class TestApp(App):
+ class TestApp(App):
 
-    def build(self):
+     def build(self):
          return RootWidget()
 
 
-if __name__ == '__main__':
+ if __name__ == '__main__':
      TestApp().run()
